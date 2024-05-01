@@ -1,0 +1,40 @@
+{"current_date":"27-04-2024","query":"Today","expected_answer":"27-04-2024"}
+{"current_date":"27-04-2024","query":"Tomorrow","expected_answer":"28-04-2024"}
+{"current_date":"27-04-2024","query":"Yesterday","expected_answer":"26-04-2024"}
+{"current_date":"27-04-2024","query":"Now","expected_answer":"27-04-2024"}
+{"current_date":"27-04-2024","query":"Next Monday","expected_answer":"29-04-2024"}
+{"current_date":"27-04-2024","query":"Last Friday","expected_answer":"26-04-2024"}
+{"current_date":"27-04-2024","query":"Friday the week before","expected_answer":"19-04-2024"}
+{"current_date":"27-04-2024","query":"This Sunday","expected_answer":"28-04-2024"}
+{"current_date":"27-04-2024","query":"Next month","expected_answer":"01-05-2024"}
+{"current_date":"27-04-2024","query":"In one month","expected_answer":"27-05-2024"}
+{"current_date":"27-04-2024","query":"Last year","expected_answer":"01-01-2023"}
+{"current_date":"27-04-2024","query":"One year ago","expected_answer":"27-04-2023"}
+{"current_date":"27-04-2024","query":"This week","expected_answer":"22-04-2024 - 28-04-2024"}
+{"current_date":"27-04-2024","query":"The week starting the 20th of May","expected_answer":"20-05-2024 - 26-05-2024"}
+{"current_date":"27-04-2024","query":"Last Monday","expected_answer":"22-04-2024"}
+{"current_date":"27-04-2024","query":"Last Wednesday","expected_answer":"24-04-2024"}
+{"current_date":"27-04-2024","query":"Last Saturday","expected_answer":"20-04-2024"}
+{"current_date":"27-04-2024","query":"This weekend","expected_answer":"27-04-2024 - 28-04-2024"}
+{"current_date":"27-04-2024","query":"Next weekend","expected_answer":"04-05-2024 - 05-05-2024"}
+{"current_date":"27-04-2024","query":"Next week","expected_answer":"29-04-2024 - 05-05-2024"}
+{"current_date":"27-04-2024","query":"Between 15th March and 20th March","expected_answer":"15-03-2024 - 20-03-2024"}
+{"current_date":"27-04-2024","query":"From 1st January to 31st January","expected_answer":"01-01-2024 - 31-01-2024"}
+{"current_date":"27-04-2024","query":"Last January","expected_answer":"01-01-2024 - 31-01-2024"}
+{"current_date":"27-04-2024","query":"From yesterday to tomorrow","expected_answer":"26-04-2024 - 28-04-2024"}
+{"current_date":"27-04-2024","query":"Between last Monday and next Friday","expected_answer":"23-04-2024 - 03-05-2024"}
+{"current_date":"27-04-2024","query":"Christmas","expected_answer":"25-12-2024"}
+{"current_date":"27-04-2024","query":"New Year's Day","expected_answer":"01-01-2025"}
+{"current_date":"27-04-2024","query":"First Monday of next month","expected_answer":"06-05-2024"}
+{"current_date":"27-04-2024","query":"Last Friday of this year","expected_answer":"27-12-2024"}
+{"current_date":"27-04-2024","query":"Second Wednesday of November","expected_answer":"13-11-2024"}
+{"current_date":"27-04-2024","query":"The third Thursday of this month","expected_answer":"18-04-2024"}
+{"current_date":"27-04-2024","query":"The third Thursday of next month","expected_answer":"16-04-2024"}
+{"current_date":"27-04-2024","query":"29th February","expected_answer":"29-02-2024"}
+{"current_date":"27-04-2024","query":"Last day of February in a leap year","expected_answer":"29-02-2024"}
+{"current_date":"27-04-2024","query":"32nd January","expected_answer":"INVALID"}
+{"current_date":"27-04-2024","query":"Next Friday","expected_answer":"03-05-2024"}
+{"current_date":"27-04-2024","query":"Last day of the month","expected_answer":"30-04-2024"}
+{"current_date":"27-04-2024","query":"Last day of the year","expected_answer":"31-12-2024"}
+{"current_date":"27-04-2024","query":"Three days after 10th April","expected_answer":"13-04-2024"}
+{"current_date":"27-04-2024","query":"Two weeks before 25th December","expected_answer":"11-12-2024"}

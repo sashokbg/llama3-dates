@@ -1,0 +1,33 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
+inputs:
+  query:
+    type: string
+outputs:
+  date_result:
+    type: string
+    reference: "${generate_result.output}"
+nodes:
+- name: extract_date
+  type: python
+  source:
+    type: code
+    path: extract_date.py
+  inputs:
+    query: "${inputs.query}"
+- name: categorize
+  type: python
+  source:
+    type: code
+    path: categorize.py
+  inputs:
+    query: "${extract_date.output}"
+- name: generate_result
+  type: python
+  source:
+    type: code
+    path: generate_result.py
+  inputs:
+    query: "${inputs.query}"
+    category: "${categorize.output}"
+environment:
+  python_requirements_txt: requirements.txt

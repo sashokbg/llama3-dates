@@ -1,0 +1,27 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
+inputs:
+  prediction:
+    type: string
+  ground_truth:
+    type: string
+outputs:
+  result:
+    type: string
+    reference: "${grade.output}"
+nodes:
+- name: grade
+  type: python
+  source:
+    type: code
+    path: grade.py
+  inputs:
+    ground_truth: "${inputs.ground_truth}"
+    prediction: "${inputs.prediction}"
+- name: calculate_accuracy
+  type: python
+  source:
+    type: code
+    path: calculate_accuracy.py
+  inputs:
+    grades: "${grade.output}"
+  aggregation: true
